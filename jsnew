@@ -1,0 +1,234 @@
+fetch('https://jsonplaceholder.typicode.com/posts/1')
+  .then(res => console.log(res.status, res.ok))
+  .catch(err => console.error('Error:', err));
+
+
+fetch('https://pokeapi.co/api/v2/pokemon/pikachu')
+  .then(res => res.json())
+  .then(data => console.log('Pikachu Stats:', data.stats, 'Type:', data.types[0].type.name))
+  .catch(err => console.error('Fetch Error:', err));
+
+
+document.cookie.split(';').forEach(cookie => console.log(cookie.trim()));
+
+
+change page title
+
+document.title = 'New Page Title';
+
+
+document.querySelector('h1').textContent = 'New H1 Heading';
+
+document.querySelector("h1").innerHTML = "New Heading Content";
+
+
+
+document.title = '\u2764\u2B50\uD83D\uDD25\u26A1\uD83D\uDE80\uD83C\uDFB5\uD83D\uDCF7\uD83D\uDCD6\uD83C\uDF0D\uD83C\uDF08';
+
+
+
+document.querySelector("div").innerHTML = `
+  <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/grinning-face_1f600.png" 
+       alt="Smiling Emoji"
+       role="img" 
+       aria-label="An image showing a smiling emoji" 
+       width="150" 
+       height="150">
+`;
+
+
+error
+
+document.querySelector("div").innerHTML = `
+  <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/cross-mark_274c.png" 
+       alt="Error Emoji"
+       role="img" 
+       aria-label="An image showing an error emoji" 
+       width="150" 
+       height="150">
+`;
+
+
+angry...
+
+document.querySelector("div").innerHTML = `
+  <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/pouting-face_1f621.png" 
+       alt="Angry Face Emoji"
+       role="img" 
+       aria-label="An image showing an angry face emoji" 
+       width="150" 
+       height="150">
+`;
+
+
+
+// Create an array of to-do items with relevant emojis using Unicode
+let todoItems = [
+  "\uD83D\uDED2 Buy groceries",         // 🛒
+  "\uD83D\uDCDE Call the dentist",      // 📞
+  "\uD83D\uDDD2 Finish report",         // 📝
+  "\uD83C\uDFCB Workout",               // 🏋️
+  "\uD83D\uDCDA Read a book",           // 📖
+  "\u2708\uFE0F Plan vacation",         // ✈️
+  "\uD83D\uDCA7 Water plants",          // 💧
+  "\uD83D\uDCB3 Pay bills",             // 💳
+  "\uD83E\uDDF9 Clean the house",       // 🧹
+  "\uD83C\uDF74 Prepare dinner"         // 🍽️
+];
+
+// Create the HTML structure for the to-do list
+let todoListHTML = `
+  <h2>To-Do List</h2>
+  <ul>
+    ${todoItems.map(item => `<li>${item}</li>`).join('')}
+  </ul>
+`;
+
+// Add the to-do list to the first div element on the page
+document.querySelector("div").innerHTML = todoListHTML;
+
+
+
+
+
+
+
+
+List of 15 Emojis
+Heart -   
+Unicode: U+2764  
+
+Command: document.title = 'Love ';  
+
+Use: Express affection or highlight favorites.
+
+Star -   
+Unicode: U+2B50  
+
+Command: document.querySelector('h1').innerHTML = 'Top  Picks';  
+
+Use: Indicate ratings or highlights.
+
+Fire -   
+Unicode: U+1F525  
+
+Command: document.title = 'Hot  News';  
+
+Use: Show trending or urgent content.
+
+Lightning Bolt -   
+Unicode: U+26A1  
+
+Command: document.title = 'Power  Up';  
+
+Use: Energy, speed, or Pokémon themes.
+
+Smiley Face -   
+Unicode: U+1F60A  
+
+Command: document.querySelector('h1').innerHTML = 'Welcome ';  
+
+Use: Friendly greeting or positive vibe.
+
+Checkmark -   
+Unicode: U+2705  
+
+Command: document.title = 'Done ';  
+
+Use: Task completion or confirmation.
+
+Rocket -   
+Unicode: U+1F680  
+
+Command: document.title = 'Launch  Time';  
+
+Use: New releases or exciting updates.
+
+Music Note -   
+Unicode: U+1F3B5  
+
+Command: document.querySelector('h1').innerHTML = 'Tunes ';  
+
+Use: Music-related content.
+
+Camera -   
+Unicode: U+1F4F7  
+
+Command: document.title = 'Photos ';  
+
+Use: Photography or image galleries.
+
+Book -   
+Unicode: U+1F4D6  
+
+Command: document.querySelector('h1').innerHTML = 'Read  More';  
+
+Use: Articles, blogs, or education.
+
+Pizza -   
+Unicode: U+1F355  
+
+Command: document.title = 'Pizza  Party';  
+
+Use: Food-related or fun themes.
+
+Warning -   
+Unicode: U+26A0  
+
+Command: document.title = 'Alert ';  
+
+Use: Highlight issues or warnings.
+
+Globe -   
+Unicode: U+1F30D  
+
+Command: document.querySelector('h1').innerHTML = 'World  News';  
+
+Use: Global topics or travel.
+
+Clock -   
+Unicode: U+23F0  
+
+Command: document.title = 'Time  Sensitive';  
+
+Use: Deadlines or time-based content.
+
+Rainbow -   
+Unicode: U+1F308  
+
+Command: document.querySelector('h1').innerHTML = 'Colorful  Day';  
+
+Use: Diversity, creativity, or positivity.
+
+
+Subject: Upgrade to XLSX Format for Subscription Excel Reports
+
+
+
+Dear Paris Team,
+
+
+
+We would like to inform you that, starting Thursday, your three daily subscription Excel reports will be upgraded from the legacy .xls format (Excel 2003) to the more modern and compatible .xlsx format (introduced in Excel 2007).
+
+
+
+This update ensures better performance, improved security, and compatibility with the latest versions of Excel, making it easier for you to work with these reports.
+
+
+
+You will continue to receive the reports Monday to Friday at the same scheduled times:
+
+• 12:00 PM – PAR Lost Transaction Report
+
+• 2:00 PM – Outstanding Balance of Pre-Agreed Rate FX Deals
+
+• 3:00 PM – PAR Lost Transactions Report
+
+
+
+If you have any questions or concerns regarding this change, please feel free to reach out. We appreciate your cooperation and are confident this update will enhance your experience with the reports.
+
+
+
+Best regards,
