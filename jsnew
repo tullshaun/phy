@@ -199,36 +199,3 @@ Unicode: U+1F308
 Command: document.querySelector('h1').innerHTML = 'Colorful  Day';  
 
 Use: Diversity, creativity, or positivity.
-
-
-Subject: Upgrade to XLSX Format for Subscription Excel Reports
-
-
-
-Dear Paris Team,
-
-
-
-We would like to inform you that, starting Thursday, your three daily subscription Excel reports will be upgraded from the legacy .xls format (Excel 2003) to the more modern and compatible .xlsx format (introduced in Excel 2007).
-
-
-
-This update ensures better performance, improved security, and compatibility with the latest versions of Excel, making it easier for you to work with these reports.
-
-
-
-You will continue to receive the reports Monday to Friday at the same scheduled times:
-
-• 12:00 PM – PAR Lost Transaction Report
-
-• 2:00 PM – Outstanding Balance of Pre-Agreed Rate FX Deals
-
-• 3:00 PM – PAR Lost Transactions Report
-
-
-
-If you have any questions or concerns regarding this change, please feel free to reach out. We appreciate your cooperation and are confident this update will enhance your experience with the reports.
-
-
-
-Best regards,
